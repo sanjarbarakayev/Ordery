@@ -1,0 +1,172 @@
+@import 'fonts';
+
+.col-xl,
+.col-xl-auto,
+.col-xl-12,
+.col-xl-11,
+.col-xl-10,
+.col-xl-9,
+.col-xl-8,
+.col-xl-7,
+.col-xl-6,
+.col-xl-5,
+.col-xl-4,
+.col-xl-3,
+.col-xl-2,
+.col-xl-1,
+.col-lg,
+.col-lg-auto,
+.col-lg-12,
+.col-lg-11,
+.col-lg-10,
+.col-lg-9,
+.col-lg-8,
+.col-lg-7,
+.col-lg-6,
+.col-lg-5,
+.col-lg-4,
+.col-lg-3,
+.col-lg-2,
+.col-lg-1,
+.col-md,
+.col-md-auto,
+.col-md-12,
+.col-md-11,
+.col-md-10,
+.col-md-9,
+.col-md-8,
+.col-md-7,
+.col-md-6,
+.col-md-5,
+.col-md-4,
+.col-md-3,
+.col-md-2,
+.col-md-1,
+.col-sm,
+.col-sm-auto,
+.col-sm-12,
+.col-sm-11,
+.col-sm-10,
+.col-sm-9,
+.col-sm-8,
+.col-sm-7,
+.col-sm-6,
+.col-sm-5,
+.col-sm-4,
+.col-sm-3,
+.col-sm-2,
+.col-sm-1,
+.col,
+.col-auto,
+.col-12,
+.col-11,
+.col-10,
+.col-9,
+.col-8,
+.col-7,
+.col-6,
+.col-5,
+.col-4,
+.col-3,
+.col-2,
+.col-1 {
+	padding: 0;
+}
+.v-application ul, .v-application ol {
+	padding-left: 0 !important;
+}
+.v-application p {
+	margin-bottom: 0 !important;
+}
+.v-pagination > li:first-child,
+.v-pagination > li:last-child {
+		display: none;
+}
+.v-application .info {
+	background-color: #fff !important;
+	border-color: #fff !important;
+}
+.v-pagination__item {
+	height: 42px !important;
+	width: 42px !important;
+	background: #00CCCC !important;
+	box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25) !important;
+	border-radius: 10px !important;
+	font-family: 'Rubik-Medium' !important;
+	color: #fff !important;
+	font-size: 18px;
+}
+.v-pagination__item--active {
+	background-color: #007272 !important;
+}
+.info[data-v-7a6eb280] {
+		margin: 0 !important;
+}
+*:focus {
+	outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.is-hidden {
+	display: none !important;
+}
+
+.btn--reset {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #C4C4C4;
+	border-radius: 14px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #a5a5a5;
+}
